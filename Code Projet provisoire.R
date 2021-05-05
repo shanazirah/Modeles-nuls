@@ -16,7 +16,7 @@ simu_graph <- function(Gender, Degree){
 
 # ---------- Importation des données ----------
 
-data <- read_csv(file = "/Users/shanazirah/Desktop/M1/Mémoire/Essai implementation/persons.csv", 
+data <- read_csv(file = "persons.csv", 
 
          col_types = cols(
            'gender' = col_character(),
